@@ -1,0 +1,349 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #97f0dea7;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+    font-family: "Indie Flower";
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+    color: beige;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #010001;
+    text-decoration: none;
+    transition: all 500ms linear ;
+
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #0640df;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/pexels-archbob-1421837.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    font-family:"Sixtyfour Convergence";
+    color: #81dfd3;
+    text-transform: uppercase;
+}
+
+.contenidouno h2{
+    color: #81dfd3;
+    margin-bottom: 15px;
+    font-family: "Indie Flower";
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    font-family:"Caveat";
+    font-size: 28px;
+    color: rgb(2, 2, 2);
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+
+}
+
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.button:hover {
+    background-color: #feb61a;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3%;
+    font-size: 16px;
+    margin: 20px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/pexels-aasif-pathan-321950386-16139171.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(238, 159, 12);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #f3e306;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #83cfe9;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #000000;
+    font-family:"Sixtyfour Convergence";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  .galeria p {
+    color: #020303;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    font-family: "Indie Flower";
+    letter-spacing: 2px ;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #f40a0a;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #9eb38d;
+    color: #030bfa;
+    text-decoration: none;
+    border: 3px solid #000000;
+    border-radius: 400px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #ffba19;
+    border-radius: 200px;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #8ec6e9b3;
+    color: #fff;
+    padding: 25px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  
+  h3, p {
+    color: #fff;
+    margin:0 ;
+    margin-top: 20px;
+  }
+  footer {
+    text-align: center; 
+    padding: 10px;
+    
+}
+
+.footer p {
+    
+    margin-top: 10px;
+ 
+}
+  
+.social-icons1 {
+    text-align: center; 
+    margin-top: 10px;}
+
+.social-icons1 ul li a {
+    font-size: 18px; 
+}
+
+.social-icons1 h4 {
+    margin-top: 2px;
+    font-size: 20px;
+    margin-bottom: 1px;
+    color: #333; 
+    margin-right: 100px;
+    margin-left: 80px;
+}
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+   margin-right: 20px;
+   margin-left: 130px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #c877df; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
